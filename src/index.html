@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/src/styles/index.css" />
+    <title>Lamendes</title>
+  </head>
+  <body class="container-fluid">
+    <div class="gradient-blur"></div>
+    <section class="homegif" id="home">
+      <nav class="nav">
+        <div>
+          <img src="/assets/logo.png" alt="logo" class="logo" />
+          <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#collection">Coleção</a></li>
+            <li><a href="#face_guide">Guia de Rosto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <video autoplay muted loop playsinline class="bgvideo">
+        <source src="/assets/video.mp4" type="video/mp4" />
+      </video>
+      <div class="box-main-message">
+        <h1 class="main-message slide-right">Elegância que protege.</h1>
+        <h2 class="main-subtitle slide-left">
+          Óculos de sol com proteção UV e estilo que vai além das estações.
+        </h2>
+        <div class="btn-header">
+          <a href="#collection" class="btn-default puff-in-center"
+            >Ver coleção</a
+          >
+          <a
+            href="https://wa.me/+5532999188226?text=Ol%C3%A1!%20Gostaria%20de%20%ser%20um%20revendedor%20de%20C3%B3culos%20Lamendes!"
+            class="btn-default slide-top"
+            >Seja um revendedor</a
+          >
+        </div>
+      </div>
+    </section>
+    <div class="bg-collection-face-guide">
+      <section class="collection" id="collection">
+        <h1 class="section-title">Coleção</h1>
+        <div class="swiper">
+          <div class="swiper-wrapper divcards" id="glasses-container"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section class="face-guide" id="face_guide">
+        <h1 class="section-title">Guia de rosto</h1>
+        <div class="main-box">
+          <div class="box-images">
+            <img src="/assets/img/1.jpg" alt="Image 1" />
+            <img src="/assets/img/2.jpg" alt="Image 2" />
+            <img src="/assets/img/3.jpg" alt="Image 3" />
+            <img src="/assets/img/4.jpg" alt="Image 4" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-align">
+          <div class="footer-section logo mobile-hide">
+            <img src="/assets/logo.png" alt="logo" class="footer-logo" />
+          </div>
+          <div class="footer-section">
+            <h3>Links Rápidos</h3>
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="#collection">Coleção</a></li>
+              <li><a href="#face_guide">Guia de Rosto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p><i class="bx bxs-phone"></i> +55 11 99999-9999</p>
+            <p><i class="bx bxs-envelope"></i> contato@lamendes.com</p>
+          </div>
+          <div class="footer-section">
+            <h3>Redes Sociais</h3>
+            <div class="social-icons">
+              <a href="https://wa.me/+5532999188226"
+                ><i class="bx bxl-whatsapp"></i
+              ></a>
+              <a href="https://www.instagram.com/oticalamendes/"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Lamendes. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <div class="box-whatsapp">
+      <div class="ping"></div>
+      <a
+        href="https://wa.me/+5532999188226?text=Ol%C3%A1!%20Vi%20alguns%20%C3%B3culos%20no%20site%20e%20estou%20com%20duvidas."
+        class="whatsapp-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="bx bxl-whatsapp"></i>
+      </a>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const glasses = [
+      {
+        image:
+          "https://images.tcdn.com.br/img/img_prod/754260/oculos_de_sol_masculino_mormaii_lagos_m0074a0203_polarizado_12951_1_0bba86f1ad77ac5f7c553412fd386eaf.jpg",
+        hoverImage:
+          "https://mormaiishop.vtexassets.com/arquivos/ids/4244588/M0074A1497_PRETO_1.jpg?v=638343556382000000",
+        name: "Óculos Mormaii Lagos",
+        model: "Modelo Masculino",
+        colors: ["blue", "yellow"],
+        oldPrice: "R$300,00",
+        price: "R$250,00",
+        installment: "R$25,00",
+      },
+      {
+        image:
+          "https://images.tcdn.com.br/img/img_prod/754260/oculos_de_sol_unissex_ray_ban_aviator_rb3025_9196g5_62_14_polarizado_11909_1_a859d62bff11cd6b7c9550a4eb92acec.jpg",
+        hoverImage:
+          "https://images.tcdn.com.br/img/img_prod/877056/oculos_de_sol_ray_ban_aviador_unissex_rb3026l_2683_variacao_4697_5_6ed41a04268838d0d27815a15950bf45_20211129102217.jpg",
+        name: "Óculos Ray-Ban Aviator",
+        model: "Modelo Unissex",
+        colors: ["black", "brown"],
+        oldPrice: "R$450,00",
+        price: "R$399,00",
+        installment: "R$39,90",
+      },
+      {
+        image:
+          "https://images.tcdn.com.br/img/img_prod/1095277/oculos_miraflex_nick_50_l_lilas_1086_1_a34d0ef85853314e2446418827eeb156.jpg",
+        hoverImage:
+          "https://images.tcdn.com.br/img/img_prod/1281779/oculos_de_grau_miraflex_nick_9813_1_0354292223e2219b902b9c7beee5aaea.png",
+        name: "Óculos Miraflex Nick",
+        model: "Modelo Infantil",
+        colors: ["green", "lilac"],
+        oldPrice: "R$280,00",
+        price: "R$230,00",
+        installment: "R$23,00",
+      },
+      {
+        image:
+          "https://resources.claroshop.com/medios-plazavip/s2/11040/1311088/5e3276ff2d24c-41e862d5-6948-4fb1-83d0-50f852be46e0-1600x1600.jpg",
+        hoverImage:
+          "https://img-new.cgtrader.com/items/4086902/15b6dabcf6/large/oakley-split-time-prizm-rose-gold-oo4129-1558-sport-glasses-3d-model-15b6dabcf6.jpg",
+        name: "Óculos Oakley Split Time",
+        model: "Modelo Feminino",
+        colors: ["pink", "purple"],
+        oldPrice: "R$550,00",
+        price: "R$499,00",
+        installment: "R$49,90",
+      },
+      {
+        image:
+          "https://d1rvuwlxgl43p2.cloudfront.net/Custom/Content/Products/21/81/21815_103723fll5117_l1_638470663904203221.webp",
+        hoverImage:
+          "https://d1rvuwlxgl43p2.cloudfront.net/Custom/Content/Products/92/41/9241_armacao-de-oculos-tommy-hilfiger-th-1919-003-53-preto-pr-19558-1057700035319-7_l4_638342818985255773.webp",
+        name: "Óculos Tommy Hilfiger",
+        model: "Modelo Grau",
+        colors: ["red", "black"],
+        oldPrice: "R$680,00",
+        price: "R$580,00",
+        installment: "R$58,00",
+      },
+      {
+        image:
+          "https://images-americanas.b2w.io/produtos/3899267458/imagens/oculos-carrera-1007-s-807-62-ac0-preto-ac0-vermelho-cinza/3899267458_1_xlarge.jpg",
+        hoverImage:
+          "https://d1rvuwlxgl43p2.cloudfront.net/Custom/Content/Products/13/11/13116_oculos-de-sol-carrera-1014-s-64-preto-pr-19558-20144780765ha-1_l4_638342852711939082.webp",
+        name: "Óculos Carrera 1007",
+        model: "Modelo Esportivo",
+        colors: ["blue", "black"],
+        oldPrice: "R$420,00",
+        price: "R$380,00",
+        installment: "R$38,00",
+      },
+    ];
+
+    setTimeout(() => {
+      const firstButton = document.querySelector(
+        ".btn-header > .btn-default:first-child"
+      );
+      if (firstButton) {
+        firstButton.style.animation = "pulse 1.5s infinite ease-in-out";
+
+        // Optional: loop the animation by toggling the class
+        setInterval(() => {
+          firstButton.classList.toggle("pulse-animation");
+          setTimeout(() => {
+            firstButton.classList.toggle("pulse-animation");
+          }, 2000);
+        }, 4000);
+      }
+    }, 1500);
+
+    // Add event listeners for hover after cards are created
+    window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        const cards = document.querySelectorAll(".card");
+        cards.forEach((card, index) => {
+          const img = card.querySelector("img");
+          const originalSrc = glasses[index].image;
+          const hoverSrc = glasses[index].hoverImage;
+
+          card.addEventListener("mouseenter", () => {
+            img.src = hoverSrc;
+          });
+
+          card.addEventListener("mouseleave", () => {
+            img.src = originalSrc;
+          });
+        });
+      }, 100);
+    });
+
+    // Get the container
+    const container = document.getElementById("glasses-container");
+
+    // Generate HTML for each pair of glasses
+    glasses.forEach((glass) => {
+      const colorElements = glass.colors
+        .map((color) => `<span class="color ${color}">-</span>`)
+        .join("");
+
+      const cardHTML = `
+    <div class="swiper-slide card">
+      <div class="card-image">
+        <img src="${glass.image}" alt="${glass.name}" />
+      </div>
+      <div class="card-content">
+        <div class="card-title">
+          <h2>${glass.name}</h2>
+          <span>(${glass.model})</span>
+        </div>
+        <div class="card-colors">
+          <span>Cores disponíveis:</span>
+          ${colorElements}
+        </div>
+        <div class="card-price">
+          <span class="old-price">${glass.oldPrice}</span>
+          <span class="price">${glass.price}</span>
+          <span class="font-14">ou até 10x de ${glass.installment} sem juros</span>
+        </div>
+        <div class="card-button">
+          <a href="https://wa.me/+5532999188226?text=Ol%C3%A1!%20Vi%20o%20%C3%B3culos%20${glass.name}%20e%20gostei%20muito!" class="btn-default">
+            <i class="bx bxs-phone"></i>
+            Fale com um vendedor
+          </a>
+        </div>
+      </div>
+    </div>
+      `;
+
+      container.innerHTML += cardHTML;
+    });
+
+    const swiper = new Swiper(".swiper", {
+      direction: "horizontal",
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      slidesPerView: 1,
+      spaceBetween: 10,
+      mousewheel: {
+        forceToAxis: true,
+      },
+      breakpoints: {
+        // Mobile first approach
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
+</html>
