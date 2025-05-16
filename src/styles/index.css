@@ -138,7 +138,7 @@ body {
 }
 
 .bg-collection-face-guide {
-  background-image: url("/assets/img/beach.jpg");
+  background-image: url("/public/assets/img/beach.jpg");
   background-size: cover;
 }
 
@@ -332,7 +332,6 @@ body {
   background: #000;
   color: gold;
   box-shadow: 0px 0px 10px #ffd700;
-  /* animation: pulse 1.5s infinite ease-in-out; */
 }
 
 .btn-header > .btn-default:last-child {

@@ -20,7 +20,7 @@
     <section class="homegif" id="home">
       <nav class="nav">
         <div>
-          <img src="/assets/logo.png" alt="logo" class="logo" />
+          <img src="/public/assets/logo.png" alt="logo" class="logo" />
           <ul class="nav-links">
             <li><a href="#home">Início</a></li>
             <li><a href="#collection">Coleção</a></li>
@@ -29,7 +29,7 @@
         </div>
       </nav>
       <video autoplay muted loop playsinline class="bgvideo">
-        <source src="/assets/video.mp4" type="video/mp4" />
+        <source src="/public/assets/video.mp4" type="video/mp4" />
       </video>
       <div class="box-main-message">
         <h1 class="main-message slide-right">Elegância que protege.</h1>
@@ -61,7 +61,7 @@
         <h1 class="section-title">Guia de rosto</h1>
         <div class="main-box">
           <div class="box-images">
-            <img src="/assets/img/1.jpg" alt="Guia de Rostos" />
+            <img src="/public/assets/img/1.jpg" alt="Guia de Rostos" />
           </div>
         </div>
       </section>
@@ -70,7 +70,7 @@
       <div class="footer-container">
         <div class="footer-align">
           <div class="footer-section logo mobile-hide">
-            <img src="/assets/logo.png" alt="logo" class="footer-logo" />
+            <img src="/public/assets/logo.png" alt="logo" class="footer-logo" />
           </div>
           <div class="footer-section">
             <h3>Links Rápidos</h3>
@@ -198,7 +198,6 @@
       if (firstButton) {
         firstButton.style.animation = "pulse 1.5s infinite ease-in-out";
 
-        // Optional: loop the animation by toggling the class
         setInterval(() => {
           firstButton.classList.toggle("pulse-animation");
           setTimeout(() => {
@@ -208,7 +207,6 @@
       }
     }, 1500);
 
-    // Add event listeners for hover after cards are created
     window.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => {
         const cards = document.querySelectorAll(".card");
@@ -228,10 +226,8 @@
       }, 100);
     });
 
-    // Get the container
     const container = document.getElementById("glasses-container");
 
-    // Generate HTML for each pair of glasses
     glasses.forEach((glass) => {
       const colorElements = glass.colors
         .map((color) => `<span class="color ${color}">-</span>`)
@@ -287,7 +283,6 @@
         forceToAxis: true,
       },
       breakpoints: {
-        // Mobile first approach
         320: {
           slidesPerView: 1,
           spaceBetween: 0,
