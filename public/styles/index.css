@@ -653,7 +653,8 @@ body {
   .main-subtitle,
   .swiper,
   .box-images,
-  .btn-header {
+  .btn-header,
+  .main-message {
     width: 800px;
   }
 
