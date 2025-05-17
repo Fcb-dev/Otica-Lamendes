@@ -639,7 +639,8 @@ body {
   .main-subtitle,
   .swiper,
   .box-images,
-  .footer-container {
+  .footer-container,
+  .btn-header {
     width: 1000px;
   }
 
@@ -652,7 +653,8 @@ body {
   .main-subtitle,
   .swiper,
   .box-images,
-  .footer-container {
+  .footer-container,
+  .btn-header {
     width: 800px;
   }
 
