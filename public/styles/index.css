@@ -653,9 +653,12 @@ body {
   .main-subtitle,
   .swiper,
   .box-images,
-  .footer-container,
   .btn-header {
     width: 800px;
+  }
+
+  .footer-container {
+    width: 100%;
   }
 
   .footer-section.logo > img {
