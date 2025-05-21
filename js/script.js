@@ -201,8 +201,8 @@ const glasses = [
   },
   {
     id: 21,
-    image: "public/assets/img/oculos_2.jpg",
-    hoverImage: "public/assets/img/oculos_2_1.jpg",
+    image: "public/assets/img/oculos_20.jpg",
+    hoverImage: "public/assets/img/oculos_20_1.jpg",
     name: "Óculos Ana Hickmann",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
