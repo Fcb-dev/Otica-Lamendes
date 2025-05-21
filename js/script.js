@@ -331,7 +331,6 @@ const glasses = [
   },
 ];
 
-// Função para configurar animação do primeiro botão
 function setupButtonAnimation() {
   setTimeout(() => {
     const firstButton = document.querySelector(
@@ -350,7 +349,6 @@ function setupButtonAnimation() {
   }, 1500);
 }
 
-// Função para criar os cards
 function createGlassesCards() {
   const container = document.getElementById("glasses-container");
 
@@ -383,7 +381,6 @@ function createGlassesCards() {
   });
 }
 
-// Função para configurar efeitos de hover
 function setupHoverEffects() {
   const cards = document.querySelectorAll(".card");
 
@@ -391,10 +388,8 @@ function setupHoverEffects() {
     const glassId = parseInt(card.dataset.glassId);
     const img = card.querySelector("img");
 
-    // Encontra o objeto glasses correspondente usando o ID
     const glass = glasses.find((g) => g.id === glassId);
 
-    // Só aplica hover se existirem ambas as imagens
     if (glass && glass.image && glass.hoverImage) {
       card.addEventListener("mouseenter", () => {
         img.src = glass.hoverImage;
@@ -409,7 +404,6 @@ function setupHoverEffects() {
 
 function initializeSwiper() {
   const swiper = new Swiper(".swiper", {
-    // Configurações básicas
     slidesPerView: "auto",
     centeredSlides: true,
     loop: true,
@@ -418,17 +412,14 @@ function initializeSwiper() {
       disableOnInteraction: false,
     },
 
-    // Melhorar desempenho
     preloadImages: false,
     lazy: true,
 
-    // Navegação
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
 
-    // Breakpoints simplificados
     breakpoints: {
       320: {
         slidesPerView: 1,
@@ -443,12 +434,8 @@ function initializeSwiper() {
         spaceBetween: 20,
       },
     },
-
-    // Configurações para resolver problemas de renderização
     updateOnWindowResize: true,
     resizeObserver: true,
-
-    // Adicionar callback para forçar centralização em mobile
     on: {
       resize: function () {
         if (window.innerWidth <= 768) {
@@ -467,9 +454,7 @@ function initializeSwiper() {
     },
   });
 
-  // Tratamento especial para mobile
   if (window.innerWidth <= 768) {
-    // Força recálculo do swiper após completa renderização da página
     setTimeout(() => {
       swiper.update();
     }, 500);
@@ -478,15 +463,11 @@ function initializeSwiper() {
   return swiper;
 }
 
-// Inicialização principal
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. Criar os cards
   createGlassesCards();
 
-  // 2. Configurar efeitos de hover após cards criados
   setupHoverEffects();
 
-  // 3. Inicializar Swiper
   const mySwiper = initializeSwiper();
 
   window.addEventListener("resize", function () {
@@ -495,6 +476,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 200);
   });
 
-  // 4. Configurar animação do botão
   setupButtonAnimation();
 });

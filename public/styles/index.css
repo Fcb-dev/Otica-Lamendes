@@ -774,12 +774,6 @@ body {
     line-height: 1;
   }
 
-  /* .divcards {
-    gap: 10px;
-    position: relative;
-    right: -42px;
-  } */
-
   .footer-align {
     display: flex;
     flex-direction: column;
