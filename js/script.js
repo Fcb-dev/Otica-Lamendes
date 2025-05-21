@@ -407,40 +407,75 @@ function setupHoverEffects() {
   });
 }
 
-// Função para inicializar o Swiper
 function initializeSwiper() {
-  new Swiper(".swiper", {
-    direction: "horizontal",
+  const swiper = new Swiper(".swiper", {
+    // Configurações básicas
+    slidesPerView: "auto",
     centeredSlides: true,
-    autoplay: {
-      delay: 2500,
+    loop: true,
+    autoPlay: {
+      delay: 3000,
       disableOnInteraction: false,
     },
-    loop: true,
+
+    // Melhorar desempenho
+    preloadImages: false,
+    lazy: true,
+
+    // Navegação
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 1,
-    spaceBetween: 10,
-    mousewheel: {
-      forceToAxis: true,
-    },
+
+    // Breakpoints simplificados
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 0,
+        spaceBetween: 10,
       },
       768: {
         slidesPerView: 1,
-        spaceBetween: 10,
+        spaceBetween: 20,
       },
       1024: {
         slidesPerView: 3,
         spaceBetween: 20,
       },
     },
+
+    // Configurações para resolver problemas de renderização
+    updateOnWindowResize: true,
+    resizeObserver: true,
+
+    // Adicionar callback para forçar centralização em mobile
+    on: {
+      resize: function () {
+        if (window.innerWidth <= 768) {
+          this.updateSize();
+          this.updateSlides();
+          this.updateProgress();
+          this.update();
+        }
+      },
+      slideChangeTransitionEnd: function () {
+        if (window.innerWidth <= 768) {
+          this.updateSize();
+          this.updateSlides();
+        }
+      },
+    },
   });
+
+  // Tratamento especial para mobile
+  if (window.innerWidth <= 768) {
+    // Força recálculo do swiper após completa renderização da página
+    setTimeout(() => {
+      swiper.update();
+    }, 500);
+  }
+
+  return swiper;
 }
 
 // Inicialização principal
@@ -452,7 +487,13 @@ document.addEventListener("DOMContentLoaded", () => {
   setupHoverEffects();
 
   // 3. Inicializar Swiper
-  initializeSwiper();
+  const mySwiper = initializeSwiper();
+
+  window.addEventListener("resize", function () {
+    setTimeout(() => {
+      mySwiper.update();
+    }, 200);
+  });
 
   // 4. Configurar animação do botão
   setupButtonAnimation();
