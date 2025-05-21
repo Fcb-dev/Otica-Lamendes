@@ -650,7 +650,7 @@ body {
   }
 
   .card-button > a {
-    width: max-content !important;
+    width: 100% !important;
   }
 }
 
