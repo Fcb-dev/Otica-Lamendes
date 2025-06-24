@@ -606,8 +606,8 @@ const glasses = [
     name: "Velox Branco",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
-    price: "R$250,00",
-    installment: "R$25,00",
+    price: "R$269,90",
+    installment: "R$26,99",
   },
   {
     id: 62,
@@ -616,8 +616,8 @@ const glasses = [
     name: "Extreme",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
-    price: "R$250,00",
-    installment: "R$25,00",
+    price: "R$269,90",
+    installment: "R$26,99",
   },
   {
     id: 63,
@@ -626,8 +626,8 @@ const glasses = [
     name: "Velox (Haste Vermelha)",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
-    price: "R$250,00",
-    installment: "R$25,00",
+    price: "R$269,90",
+    installment: "R$26,99",
   },
   {
     id: 64,
@@ -636,8 +636,8 @@ const glasses = [
     name: "Eclipse Preto",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
-    price: "R$250,00",
-    installment: "R$25,00",
+    price: "R$269,90",
+    installment: "R$26,99",
   },
   {
     id: 65,
@@ -646,8 +646,8 @@ const glasses = [
     name: "Velox Transparente",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
-    price: "R$250,00",
-    installment: "R$25,00",
+    price: "R$269,90",
+    installment: "R$26,99",
   },
   {
     id: 66,
@@ -656,8 +656,8 @@ const glasses = [
     name: "Alfa Azul",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
-    price: "R$250,00",
-    installment: "R$25,00",
+    price: "R$269,90",
+    installment: "R$26,99",
   },
 ];
 
