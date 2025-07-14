@@ -663,7 +663,8 @@ const glasses = [
     id: 67,
     image: "public/assets/img/oculos_67.jpg",
     hoverImage: "public/assets/img/oculos_67_1.jpg",
-    name: "Alfa 1",
+    polarized: true,
+    name: "Cairo Preto",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -673,7 +674,7 @@ const glasses = [
     id: 68,
     image: "public/assets/img/oculos_68.jpg",
     hoverImage: "public/assets/img/oculos_68_1.jpg",
-    name: "Alfa 2",
+    name: "Samba Marrom",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -683,7 +684,8 @@ const glasses = [
     id: 69,
     image: "public/assets/img/oculos_69.jpg",
     hoverImage: "public/assets/img/oculos_69_1.jpg",
-    name: "Alfa 3",
+    polarized: true,
+    name: "Leblon Preto",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -693,7 +695,8 @@ const glasses = [
     id: 70,
     image: "public/assets/img/oculos_70.jpg",
     hoverImage: "public/assets/img/oculos_70_1.jpg",
-    name: "Alfa 4",
+    polarized: true,
+    name: "Calcuta Preto",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -703,7 +706,8 @@ const glasses = [
     id: 71,
     image: "public/assets/img/oculos_71.jpg",
     hoverImage: "public/assets/img/oculos_71_1.jpg",
-    name: "Alfa 5",
+    polarized: true,
+    name: "Calcuta Marrom",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -713,7 +717,8 @@ const glasses = [
     id: 72,
     image: "public/assets/img/oculos_72.jpg",
     hoverImage: "public/assets/img/oculos_72_1.jpg",
-    name: "Alfa 6",
+    polarized: true,
+    name: "Calcuta Translúcido",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -723,7 +728,8 @@ const glasses = [
     id: 73,
     image: "public/assets/img/oculos_73.jpg",
     hoverImage: "public/assets/img/oculos_73_1.jpg",
-    name: "Alfa 7",
+    polarized: true,
+    name: "Miami Marrom",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -733,7 +739,8 @@ const glasses = [
     id: 74,
     image: "public/assets/img/oculos_74.jpg",
     hoverImage: "public/assets/img/oculos_74_1.jpg",
-    name: "Alfa 8",
+    polarized: true,
+    name: "Leme Preto e haste de Madeira",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -743,7 +750,8 @@ const glasses = [
     id: 75,
     image: "public/assets/img/oculos_75.jpg",
     hoverImage: "public/assets/img/oculos_75_1.jpg",
-    name: "Alfa 9",
+    polarized: true,
+    name: "Olie Preto e haste Azul",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -753,7 +761,8 @@ const glasses = [
     id: 76,
     image: "public/assets/img/oculos_76.jpg",
     hoverImage: "public/assets/img/oculos_76_1.jpg",
-    name: "Alfa 0",
+    polarized: true,
+    name: "Ariel Preto",
     model: "Modelo Masculino",
     oldPrice: "R$300,00",
     price: "R$279,90",
@@ -784,9 +793,16 @@ function createGlassesCards() {
 
   glasses.forEach((glass) => {
     const cardHTML = `
-      <div class="swiper-slide card" id="card-${glass.id}" data-glass-id="${glass.id}">
+      <div class="swiper-slide card" id="card-${glass.id}" data-glass-id="${
+      glass.id
+    }">
         <div class="card-image">
-          <img src="${glass.image}" alt="${glass.name}" />
+          <img src="${glass.image}" alt="${glass.name}" class="img" />
+          ${
+            glass.polarized
+              ? '<img src="public/assets/img/selo_polarizado.jpg" class="selo_polarized" />'
+              : ""
+          }
         </div>
         <div class="card-content">
           <div class="card-title">
@@ -796,10 +812,14 @@ function createGlassesCards() {
           <div class="card-price">
             <span class="old-price">${glass.oldPrice}</span>
             <span class="price">${glass.price}</span>
-            <span class="font-14">ou até 10x de ${glass.installment} sem juros</span>
+            <span class="font-14">ou até 10x de ${
+              glass.installment
+            } sem juros</span>
           </div>
           <div class="card-button">
-            <a href="https://wa.me/+5532999188226?text=Ol%C3%A1!%20Vi%20o%20%C3%B3culos%20${glass.name}%20e%20gostei%20muito!" class="btn-default">
+            <a href="https://wa.me/+5532999188226?text=Ol%C3%A1!%20Vi%20o%20%C3%B3culos%20${
+              glass.name
+            }%20e%20gostei%20muito!" class="btn-default">
               <i class="bx bxs-phone"></i>
               Fale com um vendedor
             </a>
