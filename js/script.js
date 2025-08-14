@@ -5,9 +5,6 @@ const glasses = [
     hoverImage: "public/assets/img/laguna_1.jpg",
     name: "Laguna Marrom",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 2,
@@ -15,9 +12,6 @@ const glasses = [
     hoverImage: "public/assets/img/toquio_1.jpg",
     name: "Tóquio",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 3,
@@ -25,9 +19,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_1_1.jpg",
     name: "Maldivas",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 4,
@@ -35,9 +26,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_2_1.jpg",
     name: "Chaiene Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 5,
@@ -45,9 +33,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_3_1.jpg",
     name: "Spencer",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 6,
@@ -55,9 +40,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_4_1.jpg",
     name: "Gisele Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 7,
@@ -65,9 +47,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_5_1.jpg",
     name: "Elisa Verde",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 8,
@@ -75,9 +54,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_6_1.jpg",
     name: "Ares Dourado",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 9,
@@ -85,9 +61,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_7_1.jpg",
     name: "Robin Transparente",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 10,
@@ -95,9 +68,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_8_1.jpg",
     name: "Vênus Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 11,
@@ -105,9 +75,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_9_1.jpg",
     name: "Diamond Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 12,
@@ -115,9 +82,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_10_1.jpg",
     name: "Jade Rosa Translúcido",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 13,
@@ -125,9 +89,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_11_1.jpg",
     name: "Dubai Rosa",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 14,
@@ -135,9 +96,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_12_1.jpg",
     name: "Lady Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 15,
@@ -145,9 +103,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_13_1.jpg",
     name: "Ibiza 2.0 Azul",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 16,
@@ -155,9 +110,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_15_1.jpg",
     name: "Elisa Azul",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 17,
@@ -165,9 +117,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_16_1.jpg",
     name: "Blumenau Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 18,
@@ -175,9 +124,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_17_1.jpg",
     name: "Marrocos Bambu",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 19,
@@ -185,9 +131,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_18_1.jpg",
     name: "Malvadão Prateado",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 20,
@@ -195,9 +138,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_19_1.jpg",
     name: "Malibu Cinza e Transparente",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 21,
@@ -205,9 +145,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_20_1.jpg",
     name: "Hexagonal Degradê",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 22,
@@ -215,9 +152,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_21_1.jpg",
     name: "Riley Cinza",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 23,
@@ -225,9 +159,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_22_1.jpg",
     name: "Queridinho Preto Bambu",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 24,
@@ -235,9 +166,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_23_1.jpg",
     name: "Robin Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 25,
@@ -245,9 +173,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_24_1.jpg",
     name: "Karen Animal Print",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 26,
@@ -255,9 +180,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_25_1.jpg",
     name: "Clover Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 27,
@@ -265,9 +187,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_26_1.jpg",
     name: "Polaroid 4139/S",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 28,
@@ -275,9 +194,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_27_1.jpg",
     name: "Urban 2.0 Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 29,
@@ -285,9 +201,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_28_1.jpg",
     name: "Urban 3.0 Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 30,
@@ -295,9 +208,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_29_1.jpg",
     name: "Urban 2.0 Preto",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 31,
@@ -305,9 +215,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_30_1.jpg",
     name: "Urban 2.0 Animal Print",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 32,
@@ -315,9 +222,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_31_1.jpg",
     name: "Urban 4.0",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 33,
@@ -325,9 +229,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_32_1.jpg",
     name: "Gatinha V Bege",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 34,
@@ -335,9 +236,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_33_1.jpg",
     name: "Laguna Marrom Degradê",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 35,
@@ -345,9 +243,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_34_1.jpg",
     name: "Aviador Light",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 36,
@@ -355,9 +250,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_35_1.jpg",
     name: "Neve cinza",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 37,
@@ -365,9 +257,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_36_1.jpg",
     name: "Clover Rose",
     model: "Modelo Feminino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 38,
@@ -375,9 +264,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_37_1.jpg",
     name: "Play Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 39,
@@ -385,9 +271,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_39_1.jpg",
     name: "Spencer Marrom",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 40,
@@ -395,9 +278,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_40_1.jpg",
     name: "Victória Translúcido",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 41,
@@ -405,9 +285,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_41_1.jpg",
     name: "Valente Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 42,
@@ -415,9 +292,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_42_1.jpg",
     name: "Lady Lilás",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 43,
@@ -425,9 +299,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_43_1.jpg",
     name: "Maraise Verde",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 44,
@@ -435,9 +306,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_44_1.jpg",
     name: "Diamond Bege",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 45,
@@ -445,9 +313,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_45_1.jpg",
     name: "City Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 46,
@@ -455,9 +320,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_46_1.jpg",
     name: "Lilian Azul",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 47,
@@ -465,9 +327,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_47_1.jpg",
     name: "Vênus Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 48,
@@ -475,9 +334,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_48_1.jpg",
     name: "Neve Bege",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 49,
@@ -485,9 +341,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_49_1.jpg",
     name: "Simaria Bege",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 50,
@@ -495,9 +348,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_50_1.jpg",
     name: "Aviador Sporte Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 51,
@@ -505,9 +355,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_51_1.jpg",
     name: "Lua Branco",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 52,
@@ -515,9 +362,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_52_1.jpg",
     name: "Ares Preto e Dourado",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 53,
@@ -525,9 +369,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_53_1.jpg",
     name: "Clover Dourado",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 54,
@@ -535,9 +376,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_54_1.jpg",
     name: "Max Cristal",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 55,
@@ -545,9 +383,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_55_1.jpg",
     name: "Diamond Transparente",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 56,
@@ -555,9 +390,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_56_1.jpg",
     name: "Luztrans Rosa",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 57,
@@ -565,9 +397,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_57_1.jpg",
     name: "Leal Cinza Transparente",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 58,
@@ -575,9 +404,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_58_1.jpg",
     name: "Pérola Verde",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 59,
@@ -585,9 +411,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_59_1.jpg",
     name: "Aviador Light Azul",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 60,
@@ -595,9 +418,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_60_1.jpg",
     name: "Lady Verde",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 61,
@@ -605,9 +425,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_61_1.jpg",
     name: "Velox Branco",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 62,
@@ -615,9 +432,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_62_1.jpg",
     name: "Extreme",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 63,
@@ -625,9 +439,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_63_1.jpg",
     name: "Velox (Haste Vermelha)",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 64,
@@ -635,9 +446,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_64_1.jpg",
     name: "Eclipse Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 65,
@@ -645,9 +453,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_65_1.jpg",
     name: "Velox Transparente",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 66,
@@ -655,9 +460,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_66_1.jpg",
     name: "Alfa Azul",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 67,
@@ -666,9 +468,6 @@ const glasses = [
     polarized: true,
     name: "Cairo Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 68,
@@ -676,9 +475,6 @@ const glasses = [
     hoverImage: "public/assets/img/oculos_68_1.jpg",
     name: "Samba Marrom",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 69,
@@ -687,9 +483,6 @@ const glasses = [
     polarized: true,
     name: "Leblon Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 70,
@@ -698,9 +491,6 @@ const glasses = [
     polarized: true,
     name: "Calcuta Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 71,
@@ -709,9 +499,6 @@ const glasses = [
     polarized: true,
     name: "Calcuta Marrom",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 72,
@@ -720,9 +507,6 @@ const glasses = [
     polarized: true,
     name: "Calcuta Translúcido",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 73,
@@ -731,9 +515,6 @@ const glasses = [
     polarized: true,
     name: "Miami Marrom",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 74,
@@ -742,9 +523,6 @@ const glasses = [
     polarized: true,
     name: "Leme Preto e haste de Madeira",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 75,
@@ -753,9 +531,6 @@ const glasses = [
     polarized: true,
     name: "Olie Preto e haste Azul",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
   },
   {
     id: 76,
@@ -764,9 +539,86 @@ const glasses = [
     polarized: true,
     name: "Ariel Preto",
     model: "Modelo Masculino",
-    oldPrice: "R$300,00",
-    price: "R$279,90",
-    installment: "R$27,99",
+  },
+  {
+    id: 77,
+    image: "public/assets/img/oculos_77.jpg",
+    hoverImage: "public/assets/img/oculos_77_1.jpg",
+    polarized: true,
+    name: "Fer 2.0",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 78,
+    image: "public/assets/img/oculos_78.jpg",
+    hoverImage: "public/assets/img/oculos_78_1.jpg",
+    polarized: true,
+    name: "Jade",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 79,
+    image: "public/assets/img/oculos_79.jpg",
+    hoverImage: "public/assets/img/oculos_79_1.jpg",
+    polarized: true,
+    name: "Aviador",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 80,
+    image: "public/assets/img/oculos_80.jpg",
+    hoverImage: "public/assets/img/oculos_80_1.jpg",
+    polarized: true,
+    name: "Urban 3.0",
+    model: "Modelo Unissex",
+  },
+  {
+    id: 81,
+    image: "public/assets/img/oculos_81.jpg",
+    hoverImage: "public/assets/img/oculos_81_1.jpg",
+    polarized: true,
+    name: "Talia Verde",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 82,
+    image: "public/assets/img/oculos_82.jpg",
+    hoverImage: "public/assets/img/oculos_82_1.jpg",
+    polarized: true,
+    name: "Mega",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 83,
+    image: "public/assets/img/oculos_83.jpg",
+    hoverImage: "public/assets/img/oculos_83_1.jpg",
+    polarized: true,
+    name: "Vanessa Black",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 84,
+    image: "public/assets/img/oculos_84.jpg",
+    hoverImage: "public/assets/img/oculos_84_1.jpg",
+    polarized: true,
+    name: "City 2.0",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 85,
+    image: "public/assets/img/oculos_85.jpg",
+    hoverImage: "public/assets/img/oculos_85_1.jpg",
+    polarized: true,
+    name: "City 2.0 (Lente Amarela)",
+    model: "Modelo Feminino",
+  },
+  {
+    id: 86,
+    image: "public/assets/img/oculos_86.jpg",
+    hoverImage: "public/assets/img/oculos_86_1.jpg",
+    polarized: true,
+    name: "City 2.0 (Lente Rose)",
+    model: "Modelo Feminino",
   },
 ];
 
@@ -809,12 +661,9 @@ function createGlassesCards() {
             <h2>${glass.name}</h2>
             <span>(${glass.model})</span>
           </div>
-          <div class="card-price">
-            <span class="old-price">${glass.oldPrice}</span>
-            <span class="price">${glass.price}</span>
-            <span class="font-14">ou até 10x de ${
-              glass.installment
-            } sem juros</span>
+          <div class="card-call-to-action">
+            <span>Curtiu?</span>
+            <span>Entre em contato para saber mais e fique por dentro das novidades!</span>
           </div>
           <div class="card-button">
             <a href="https://wa.me/+5532999188226?text=Ol%C3%A1!%20Vi%20o%20%C3%B3culos%20${

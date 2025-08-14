@@ -230,7 +230,7 @@ body {
   margin-right: 5px;
 }
 
-.card-price {
+/* .card-price {
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -245,6 +245,26 @@ body {
 .price {
   font-size: 22px;
   font-weight: bold;
+} */
+
+.card-call-to-action {
+  display: flex;
+  flex-direction: column;
+  /* color: #a1944b; */
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-call-to-action > span:first-child {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-call-to-action > span:last-child {
+  color: #a1944b;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .font-14 {
